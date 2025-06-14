@@ -77,19 +77,23 @@ public class admin extends JFrame implements ActionListener {
         label11.setBounds(70,420,120,120);   //LOCATION OF IMAGE ON FRAM
         add(label11); //ADD IMAGE ON FRAM..
 
-        ImageIcon l1234= new ImageIcon(ClassLoader.getSystemResource("icon/my logo.gif"));
-        Image l11111=l1234.getImage().getScaledInstance(300,300,Image.SCALE_DEFAULT);
-        ImageIcon IMAGEICON1 =new ImageIcon(l11111);
-        JLabel label111= new JLabel(IMAGEICON1); //ADD IMAGE ON FRAM
-        label111.setBounds(900,250,300,300);   //LOCATION OF IMAGE ON FRAM
-        add(label111); //ADD IMAGE ON FRAM..
+//        ImageIcon l1234= new ImageIcon(ClassLoader.getSystemResource("icon/my logo.gif"));
+//        Image l11111=l1234.getImage().getScaledInstance(300,300,Image.SCALE_DEFAULT);
+//        ImageIcon IMAGEICON1 =new ImageIcon(l11111);
+//        JLabel label111= new JLabel(IMAGEICON1); //ADD IMAGE ON FRAM
+//        label111.setBounds(900,250,300,300);   //LOCATION OF IMAGE ON FRAM
+//        add(label111); //ADD IMAGE ON FRAM..
 
 
         getContentPane().setBackground(new Color(163, 101, 82)); //BACKGROUNG COLOUR OF FRAM..
         setLayout(null);
       setSize(1950,1090);
       setVisible(true); // FOR SHOWING FRAME..
+
+
     }
+
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
